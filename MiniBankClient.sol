@@ -57,4 +57,5 @@ contract MiniBank{
     function bankBalance() external view onlyOwner returns (uint256) {
         return address(this).balance;
     }
+
 }
